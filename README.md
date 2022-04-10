@@ -37,6 +37,6 @@ npm i -g typeorm-model-generator
 npx typeorm-model-generator -h database -p 5432  -d banco -u usuario -x senha -e postgres -o . -s public
 
 ## Problemas de permissão node modules
-Caso esteja tendo problemas de permissão será necessário adicionar o seu usário como propietário da pasta do node_modules
+Caso esteja tendo problemas de permissão será necessário adicionar o seu usuário como proprietário da pasta do node_modules
 
 sudo chown -R silas:silas node_modules
